@@ -24,3 +24,38 @@
   font-size:20px;
   font-weight: 600;
 }
+.dev-part{
+  /* display: flex; */
+  /* justify-content: center; */
+  text-align: center;
+  /* align-items: center; */
+  /* flex-direction: column; */
+  margin-top: 100px;
+ma;
+}
+.img{
+  padding: 32px auto;
+}
+.inspire{
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 68px;
+  /* width: 998px; */
+  height: 136px;
+  color: rgba(13, 19, 33, 1);
+  text-align: center;
+  margin: 10px 0;
+}
+.inspire-sec{
+  text-align: center;
+}
+.para{
+  font-size: 16px;
+  line-height: 26px;
+}
+.btn-a1{
+  background-color: rgba(13, 19, 33, 1);
+  padding: 21px 24px;
+  color: azure;
+  text-align: center;
+}
