@@ -1,0 +1,26 @@
+.work-sans{
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+.nav{
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 30px;
+  text-align: center;
+}
+.name{
+  font-size: 28px;
+  font-weight: 900;
+  color: rgba(13, 19, 33, 1);
+}
+.btn-a{
+  font-size:20px;
+  font-weight: 600;
+}
