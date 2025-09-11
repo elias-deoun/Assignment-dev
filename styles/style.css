@@ -1,61 +1,98 @@
-.work-sans{
+.work-sans {
   font-family: "Work Sans", sans-serif;
   font-optical-sizing: auto;
   font-weight: <weight>;
   font-style: normal;
 }
 
-*{
+* {
   margin: 0;
   padding: 0;
 }
-.nav{
+
+.nav {
   display: flex;
   justify-content: space-between;
   margin: 20px 30px;
   text-align: center;
 }
-.name{
+
+.name {
   font-size: 28px;
   font-weight: 900;
   color: rgba(13, 19, 33, 1);
 }
-.btn-a{
-  font-size:20px;
+
+.btn-a {
+  font-size: 20px;
   font-weight: 600;
 }
-.dev-part{
+main{
+  max-width: 1000px;
+  margin: auto;
+  padding: 40PX 20PX;
+}
+.dev-part {
   /* display: flex; */
   /* justify-content: center; */
   text-align: center;
   /* align-items: center; */
   /* flex-direction: column; */
-  margin-top: 100px;
-ma;
+  margin-bottom: 50px;
 }
-.img{
-  padding: 32px auto;
+
+.img {
+  width: 150px;
+  height: 160px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 20px;
 }
-.inspire{
+
+.inspire {
   font-size: 48px;
   font-weight: 800;
   line-height: 68px;
   /* width: 998px; */
-  height: 136px;
+
   color: rgba(13, 19, 33, 1);
-  text-align: center;
-  margin: 10px 0;
+
 }
-.inspire-sec{
-  text-align: center;
-}
-.para{
-  font-size: 16px;
-  line-height: 26px;
-}
-.btn-a1{
+
+.btn-a1 {
   background-color: rgba(13, 19, 33, 1);
   padding: 21px 24px;
   color: azure;
   text-align: center;
+}
+
+.sec-title{
+  text-align: center;
+  margin-bottom: 30px;
+}
+.sec-title h2{
+  font-size: 28px;
+  margin: 0;
+}
+.sec-title p{
+  font-size: 16px;
+  margin-top: 10px;
+}
+.flex-box{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  gap: 20px;
+}
+.text{
+max-width: 400px;  
+padding: 10px 20px;
+
+}
+.flex-box img{
+  width: 100%;
+  height: auto;
 }
